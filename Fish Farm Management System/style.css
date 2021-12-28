@@ -1,0 +1,262 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    background-color: #c0e8fc;
+    background-image: url("bc.svg");
+    background-repeat: no-repeat;
+}
+
+.navigation {
+    /* background:	#909090; */
+    height: 80px;
+    width: 85%;
+    /* padding: 0 35px; */
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+.logo {
+    color: #1B1212;
+    font-size: 35px;
+    font-family: Bookman, URW Bookman L, serif;
+    line-height: 80px;
+    padding: 0 120px;
+    font-weight: bold;
+}
+
+.navigation img {
+    position: absolute;
+    max-width: 100px;
+    max-height: 200px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.navigation ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.navigation ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+.navigation ul li a {
+    color: #1B1212;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,
+a:hover {
+    background: #707070;
+    transition: .5s;
+}
+
+.title_first,
+.title_second,
+.title_third,
+.title_fourth {
+    color: black;
+    font-size: 27px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-weight: bold;
+    position: absolute;
+}
+
+.title_first {
+    margin-top: 70px;
+    margin-left: 180px;
+}
+
+.title_second {
+    margin-top: 690px;
+    margin-left: 700px;
+}
+
+.title_third {
+    margin-top: 1150px;
+    margin-left: 180px;
+}
+
+.title_fourth {
+    margin-top: 1500px;
+    margin-left: 700px;
+}
+
+.description_first,
+.description_second,
+.description_third,
+.description_fourth {
+    /* color: #ADD8E6; */
+    font-size: 18px;
+    font-family: Verdana;
+    position: absolute;
+}
+
+.description_first {
+    margin-top: 160px;
+    margin-left: 180px;
+}
+
+.button {
+    display: inline-flex;
+    /* height: 50px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 15px;
+    background: #2e76e1;
+    position: absolute;
+}
+
+button:hover {
+    opacity: 1;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.description_second {
+    margin-top: 745px;
+    margin-left: 700px;
+}
+
+.description_third {
+    margin-top: 1200px;
+    margin-left: 180px;
+}
+
+.description_fourth {
+    margin-top: 1550px;
+    margin-left: 700px;
+}
+
+.image_first {
+    max-width: 500px;
+    max-height: 700px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 670px;
+    margin-top: 115px;
+}
+
+.image_second {
+    max-width: 450px;
+    max-height: 650px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 680px;
+}
+
+.image_third {
+    max-width: 450px;
+    max-height: 650px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 1150px;
+}
+
+.image_fourth {
+    max-width: 450px;
+    max-height: 650px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 1400px;
+}
+
+.feature {
+    /* color: #7DF9FF; */
+    font-size: 36px;
+    font-family: Bookman, URW Bookman L, serif;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 540px;
+    margin-left: 600px;
+}
+
+footer .social {
+    margin-top: 1700px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    color: black;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+footer .social a {
+    font-size: 24px;
+    color: inherit;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+footer .social a:hover {
+    opacity: 0.9;
+    background-color: #2e76e1;
+}
+
+footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    /* line-height: 1.6; */
+    line-height: 2;
+    text-align: center;
+}
+
+footer ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+footer ul li {
+    display: inline-block;
+    /* padding: 0 15px; */
+    padding: 10px;
+}
+
+footer ul li a:hover {
+    opacity: 1;
+    padding: 5px;
+    background-color: #2e76e1;
+}
+
+footer .copyright {
+    text-align: center;
+    font-family: sans with sans;
+    font-size: 20px;
+    line-height: 3;
+}

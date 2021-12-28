@@ -1,0 +1,213 @@
+            .navigation {
+                /* background:	#909090; */
+                height: 80px;
+                width: 85%;
+                /* padding: 0 35px; */
+                margin-left: 90px;
+                margin-top: 40px;
+                border-bottom: 5px solid orange;
+            }
+            
+            .navigation img {
+                position: absolute;
+                max-width: 100px;
+                max-height: 200px;
+                display: inline-block;
+                margin-left: 20px;
+                margin-top: 5px;
+            }
+            
+            .navigation ul {
+                float: right;
+                margin-right: 20px;
+            }
+            
+            .navigation ul li {
+                display: inline-block;
+                line-height: 80px;
+                margin: 0 5px;
+            }
+            
+            .navigation ul li a {
+                color: #1B1212;
+                font-size: 17px;
+                padding: 7px 13px;
+                border-radius: 3px;
+                text-transform: uppercase;
+            }
+            
+            .account {
+                position: absolute;
+                top: 45px;
+                right: 16px;
+                margin-right: 90px;
+            }
+            
+            a.active,
+            a:hover {
+                background: #707070;
+                transition: .5s;
+            }
+            
+            .logo {
+                color: #1B1212;
+                font-size: 35px;
+                font-family: Bookman, URW Bookman L, serif;
+                line-height: 80px;
+                padding: 0 120px;
+                font-weight: bold;
+            }
+            
+            @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                list-style: none;
+                text-decoration: none;
+            }
+            
+            body {
+                color: black;
+                background-color: #c0e8fc;
+                background-image: url("bc.svg");
+                background-repeat: no-repeat;
+            }
+            
+            body,
+            input {
+                font-family: "Poppins", sans-serif;
+            }
+            
+            footer .social {
+                margin-top: 1700px;
+                text-align: center;
+                padding-top: 25px;
+                padding-bottom: 15px;
+                color: black;
+                font-family: Comic Sans MS, Comic Sans, cursive;
+                border-top: 5px solid orange;
+            }
+            
+            footer .social a {
+                font-size: 24px;
+                color: inherit;
+                width: 40px;
+                height: 40px;
+                line-height: 38px;
+                display: inline-block;
+                text-align: center;
+                border-radius: 50%;
+                margin: 0 8px;
+                opacity: 0.75;
+            }
+            
+            footer .social a:hover {
+                opacity: 0.9;
+                background-color: #2e76e1;
+            }
+            
+            footer ul {
+                margin-top: 0;
+                padding: 0;
+                list-style: none;
+                font-size: 18px;
+                /* line-height: 1.6; */
+                line-height: 2;
+                text-align: center;
+            }
+            
+            footer ul a {
+                color: inherit;
+                text-decoration: none;
+                opacity: 0.8;
+            }
+            
+            footer ul li {
+                display: inline-block;
+                /* padding: 0 15px; */
+                padding: 10px;
+            }
+            
+            footer ul li a:hover {
+                opacity: 1;
+                padding: 5px;
+                background-color: #2e76e1;
+            }
+            
+            footer .copyright {
+                text-align: center;
+                font-family: sans with sans;
+                font-size: 20px;
+                line-height: 3;
+            }
+            
+            .image_first {
+                max-width: 500px;
+                max-height: 800px;
+                display: inline-block;
+                position: absolute;
+                margin-left: 720px;
+                margin-top: 115px;
+                border-radius: 35px;
+            }
+            
+            .title_first {
+                color: rgb(16, 20, 223);
+                font-size: 40px;
+                font-family: Comic Sans MS, Comic Sans, cursive;
+                font-weight: bold;
+                position: absolute;
+            }
+            
+            .title_first {
+                margin-top: 70px;
+                margin-left: 180px;
+            }
+            
+            .description_first {
+                /* color: #ADD8E6; */
+                font-size: 21px;
+                font-family: Verdana;
+                position: absolute;
+            }
+            
+            .description_first {
+                margin-top: 160px;
+                margin-left: 180px;
+            }
+            
+            .button__text {
+                color: #fff;
+                font-size: 18px;
+            }
+            
+            .button {
+                display: inline-flex;
+                /* height: 50px; */
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 12px;
+                padding-bottom: 8px;
+                border: none;
+                outline: none;
+                border-radius: 5px;
+                overflow: hidden;
+                font-family: 'Quicksand', sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+                margin-top: 15px;
+                background: #2e76e1;
+                position: absolute;
+            }
+            
+            button:hover {
+                opacity: 1;
+                padding-left: 13px;
+                padding-right: 13px;
+                padding-top: 11px;
+                padding-bottom: 11px;
+            }
+            .wlc{
+                font-size: 20px;
+            }

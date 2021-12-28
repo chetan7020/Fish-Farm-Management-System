@@ -1,0 +1,64 @@
+Websie name - Farming CEO
+slogan - Committed to fishing
+following contents should be managed through our website -
+	
+	#feed 
+	#population
+	#cost
+
+Navbar - 
+	#Home
+	#Feature
+	#About us
+	#Sign up
+	#Sign in
+
+Main - 
+	#Description Title
+	#Description
+	#Join now
+	#About us
+	#Picture at left of descrption	
+	#feed desc and picture
+	#Population desc and picture
+	#cost desc and picture
+
+Contents -
+	#max no of pond -4
+	#no of pond
+	#fish in one pond
+	#type of fish
+	#average weigth
+
+	#calculation
+	#death rate
+	#food rate
+
+	#report kashi disel
+
+#Fish Info
+
+	1.catla
+	
+	2.rohu
+	weigth of user one fish(in gram) - ? -wouof
+	days span - 270 days /8 month - ds
+	max weigth -800g
+	weigth in one day - 3.75 g
+	weight in one week - 26.25 
+
+
+
+	3.tilapia
+	weigth of user one fish(in gram) - ? -wouof
+	days span - 240 days /8 month - ds
+	max weigth -900g
+	weigth in one day - 3.75 g
+	weight in one week - 26.25 
+	food require per day - 3% of weight
+	food require in w1 - 0.15g to 2.25g 
+
+	4.catfish
+
+	5.grass carp
+

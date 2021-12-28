@@ -1,0 +1,108 @@
+.navigation {
+    /* background:	#909090; */
+    height: 80px;
+    width: 85%;
+    /* padding: 0 35px; */
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+.navigation img {
+    position: absolute;
+    max-width: 100px;
+    max-height: 200px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.navigation ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.navigation ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+.navigation ul li a {
+    color: #1B1212;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.account {
+    position: absolute;
+    top: 45px;
+    right: 16px;
+    margin-right: 90px;
+}
+
+a.active,
+a:hover {
+    background: #707070;
+    transition: .5s;
+}
+
+.logo {
+    color: #1B1212;
+    font-size: 35px;
+    font-family: Bookman, URW Bookman L, serif;
+    line-height: 80px;
+    padding: 0 120px;
+    font-weight: bold;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(bcl.svg);
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+.title {
+    font-size: 2.2rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.btn {
+    width: 150px;
+    background-color: #5995fd;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+.btn:hover {
+    background-color: #4d84e2;
+}
+
+.fish{
+    /* padding-left: 100px; */
+    font-weight: 200;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
